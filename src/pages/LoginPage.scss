@@ -1,0 +1,113 @@
+@use 'theme' as *;
+
+.login-page {
+  min-height: 100vh;
+  @include flex-center;
+  @include hynix-gradient;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 50%;
+    top: -200px;
+    right: -200px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 50%;
+    bottom: -150px;
+    left: -100px;
+  }
+
+  &__card {
+    @include card-base;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+    border-top: 4px solid $hynix-red;
+    animation: slideUp 0.6s ease;
+
+    @include responsive('small') {
+      padding: 28px 24px;
+    }
+  }
+
+  &__logo {
+    text-align: center;
+    margin-bottom: 32px;
+
+    &-icon {
+      width: 56px;
+      height: 56px;
+      @include flex-center;
+      @include hynix-gradient;
+      border-radius: $radius-md;
+      color: white;
+      font-weight: 800;
+      font-size: 18px;
+      margin: 0 auto 16px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: $navy;
+      margin: 0 0 4px 0;
+    }
+
+    p {
+      font-size: 14px;
+      color: #94a3b8;
+      margin: 0;
+    }
+  }
+
+  &__footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 11px;
+    color: #94a3b8;
+  }
+
+  .form-control:focus {
+    border-color: $hynix-red;
+    box-shadow: 0 0 0 3px rgba($hynix-red, 0.15);
+  }
+
+  .btn-login {
+    background: $hynix-red;
+    border-color: $hynix-red;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 15px;
+
+    &:hover {
+      background: $hynix-red-dark;
+      border-color: $hynix-red-dark;
+    }
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

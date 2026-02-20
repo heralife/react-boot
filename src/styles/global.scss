@@ -1,0 +1,25 @@
+@use 'theme' as *;
+@use 'bootstrap-custom';
+
+body {
+  font-family: $font-primary;
+  background-color: $bg-main;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-main;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
