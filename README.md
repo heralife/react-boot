@@ -1,5 +1,12 @@
 # SK Hynix PKG Design Platform
 
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+![React](https://img.shields.io/badge/React-19-blue)
+![Vite](https://img.shields.io/badge/Vite-7-purple)
+
+> **⚠️ Copyright (c) 2026 heralife. All Rights Reserved.**
+> 저작권자의 명시적 허가 없이 복제, 수정, 배포를 금지합니다.
+
 SK하이닉스 반도체 패키지(PKG) 설계 관리 플랫폼
 
 ---
