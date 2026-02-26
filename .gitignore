@@ -15,11 +15,6 @@ dist-ssr
 # Claude AI
 .claude/
 
-# Portfolio screenshots
-portfolio-screenshots/
-
-# Screenshot script
-screenshot.mjs
 
 # Editor directories and files
 .vscode/*
