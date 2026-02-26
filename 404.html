@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // GitHub Pages SPA routing redirect
+      var path = window.location.pathname.replace('/react-boot', '')
+      sessionStorage.setItem('redirect', path)
+      window.location.replace('/react-boot/')
+    </script>
+  </head>
+  <body></body>
+</html>
