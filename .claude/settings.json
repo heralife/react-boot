@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//tmp/claude/c--Users-heral-OneDrive-------REACT-BOOT/tasks/**)",
-      "Bash(git init:*)",
-      "Bash(git add:*)"
-    ]
-  }
-}
