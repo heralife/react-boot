@@ -11,6 +11,18 @@ SK하이닉스 반도체 패키지(PKG) 설계 관리 플랫폼
 
 ---
 
+## Screenshots
+
+| Dashboard | Package Design List |
+|-----------|-------------------|
+| ![Dashboard](portfolio-screenshots/01_dashboard.png) | ![Design List](portfolio-screenshots/02_design_list.png) |
+
+| Design Detail | Simulation Results |
+|--------------|-------------------|
+| ![Design Detail](portfolio-screenshots/03_design_detail.png) | ![Simulation](portfolio-screenshots/04_simulation.png) |
+
+---
+
 ## Quick Start
 
 ```bash
